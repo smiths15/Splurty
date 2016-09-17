@@ -27,7 +27,8 @@ Rails.application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = false
+  # Changed false to true to make our application look good
+  config.assets.compile = true
 
   # Generate digests for assets URLs.
   config.assets.digest = true
