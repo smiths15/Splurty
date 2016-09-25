@@ -13,7 +13,7 @@
     position: relative;
     border-radius: 100%;
     background: #f84342;
-    border: 1px solid #F7F7F7;
+    border: 5px solid #000000;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
@@ -25,6 +25,10 @@
     transform:rotate(11deg);
     -ms-transform:rotate(11deg); /* IE 9 */
     }
+
+.logo:hover {
+  text-decoration: none;
+}
 
 .slogan {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
