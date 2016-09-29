@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+#Ruby version
+ruby "2.3.0"
 
 #First gems from Twitter Bootstrap
 
